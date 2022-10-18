@@ -32,13 +32,10 @@
 
 .big-col{
     width: 65%;
-    background-color: #1e8ffe;
-
 }
 
 .small-col{
     width: 35%;
-    background-color: #febfca;
 }
 
 .bg-grey{
@@ -181,7 +178,11 @@ div#jumbotron{
     width: 100%;
 }
 
-div#jumbotron h1.jumbo-title{
+.text{
+    font-size: 1.3rem;
+}
+
+div#jumbotron h1{
     font-size: 3.8rem;
     text-align: center;
     padding-bottom: 3rem;
@@ -195,11 +196,10 @@ div#jumbotron .jumbo-content{
 
 div#jumbotron p{
     text-align: center;
-    font-size: 1.5rem;
 }
 
 button.download{
-    margin-left: 200px;
+    margin-left: 229px;
 }
 button.download::before{
     content: "\2193";
@@ -222,4 +222,35 @@ button.open{
     margin-top: 30px;
 }
 
+div.flex-centered .image{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
+section.frog div.frog{
+    background-image: url(/img/item1.svg);
+}
+
+section.wizard div.wizard{
+    background-image: url(../img/item2.svg);
+}
+
+section.alien div.alien{
+    background-image: url(../img/item3.svg);
+}
+
+main .title,
+main .text{
+    padding-top: 30px;
+    padding-right: 99px;
+}
+
+main .title{
+    font-size: 2.9rem;
+    text-align: left;
+}
+
+main .text{
+    text-align: left;
+}
