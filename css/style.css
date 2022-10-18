@@ -39,7 +39,7 @@
 }
 
 .bg-grey{
-    background-color: #d2d2d2;
+    background-color:#F5F5F5;
 }
 
 .white{
@@ -71,7 +71,7 @@ footer{
 }
 
 main section.king {
-    height: 900px;
+    height: 1150px;
     /* background-color: aqua; */
 }
 
@@ -119,7 +119,6 @@ nav ul.main-menu li{
 
 
 div.big-content{
-    background-color: #228a22;
     height: 800px;
     width: 100%;
 }
@@ -199,7 +198,7 @@ div#jumbotron p{
 }
 
 button.download{
-    margin-left: 229px;
+    margin-left: 225px;
 }
 button.download::before{
     content: "\2193";
@@ -240,17 +239,42 @@ section.alien div.alien{
     background-image: url(../img/item3.svg);
 }
 
-main .title,
-main .text{
-    padding-top: 30px;
-    padding-right: 99px;
+.frog-image{
+    margin-right: 80px;
 }
 
 main .title{
-    font-size: 2.9rem;
+    font-size: 2.8rem;
     text-align: left;
 }
 
 main .text{
     text-align: left;
+    line-height: 1.6;
+}
+.frog, .wizard, .alien{
+    padding-right: 99px;
+}
+main .title,
+main .text{
+    padding-top: 25px;
+    padding-right: 99px;
+}
+
+div.big-content h1{
+    font-size: 2.8rem;
+}
+
+div.big-content p{
+    font-size: 1.3rem;
+    padding-top: 20px;
+}
+
+div.big-content h1,
+div.big-content p{
+    text-align: center
+}
+
+div.big-content img{
+    padding-left: 150px;
 }
