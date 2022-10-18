@@ -181,8 +181,8 @@ div#jumbotron{
     width: 100%;
 }
 
-div#jumbotron .jumbo-title{
-    font-size: 3rem;
+div#jumbotron h1.jumbo-title{
+    font-size: 3.8rem;
     text-align: center;
     padding-bottom: 3rem;
 }
@@ -190,11 +190,36 @@ div#jumbotron .jumbo-title{
 div#jumbotron .jumbo-content{
     width: 45%;
     height: 350px;
-    margin-bottom: 6rem;
-    /* background-color: #ed81ed; */
+    margin-bottom: 7rem;
 }
 
 div#jumbotron p{
     text-align: center;
     font-size: 1.5rem;
 }
+
+button.download{
+    margin-left: 200px;
+}
+button.download::before{
+    content: "\2193";
+    margin-right:10px;
+    font-size: 1rem;
+}
+
+.open{
+    background-color:#23272A;
+}
+
+div#jumbotron button.download,
+button.open{
+    padding: 20px 25px;
+    text-align: center;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+
