@@ -16,13 +16,17 @@
 }
 
 .container{
-    width: 62.5%;
+    width: 75%;
     margin: 0 auto;
     height: 100%;
 }
 
 .crazy-bordered{
     border: 2px dashed black;
+}
+
+.bottoni{
+   margin: 20px auto;
 }
 
 
@@ -217,8 +221,8 @@ button.open{
     font-size: 1rem;
     border: none;
     border-radius: 30px;
-    margin-right: 20px;
-    margin-top: 30px;
+    /* margin-right: 20px;
+    margin-top: 30px; */
 }
 
 div.flex-centered .image{
@@ -276,5 +280,5 @@ div.big-content p{
 }
 
 div.big-content img{
-    padding-left: 150px;
+    width: 100%;
 }
