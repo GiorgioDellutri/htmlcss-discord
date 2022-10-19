@@ -16,7 +16,7 @@
 }
 
 .container{
-    width: 75%;
+    width: 60%;
     margin: 0 auto;
     height: 100%;
 }
@@ -26,7 +26,8 @@
 }
 
 .bottoni{
-   margin: 20px auto;
+    text-align: center;
+    margin-top: 50px;
 }
 
 
@@ -193,7 +194,7 @@ div#jumbotron h1{
 
 div#jumbotron .jumbo-content{
     width: 45%;
-    height: 350px;
+    height: 250px;
     margin-bottom: 7rem;
 }
 
@@ -202,7 +203,6 @@ div#jumbotron p{
 }
 
 button.download{
-    margin-left: 225px;
 }
 button.download::before{
     content: "\2193";
@@ -257,12 +257,12 @@ main .text{
     line-height: 1.6;
 }
 .frog, .wizard, .alien{
-    padding-right: 99px;
+    
 }
 main .title,
 main .text{
     padding-top: 25px;
-    padding-right: 99px;
+    padding-right: 25px;
 }
 
 div.big-content h1{
@@ -280,5 +280,6 @@ div.big-content p{
 }
 
 div.big-content img{
+    background-position: center;
     width: 100%;
 }
