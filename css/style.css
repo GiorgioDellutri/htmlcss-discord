@@ -76,8 +76,7 @@ footer{
 }
 
 main section.king {
-    height: 1150px;
-    /* background-color: aqua; */
+    height: 950px;
 }
 
 nav.header-top{
@@ -200,14 +199,6 @@ div#jumbotron .jumbo-content{
 
 div#jumbotron p{
     text-align: center;
-}
-
-button.download{
-}
-button.download::before{
-    content: "\2193";
-    margin-right:10px;
-    font-size: 1rem;
 }
 
 .open{
