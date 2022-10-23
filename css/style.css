@@ -21,10 +21,6 @@
     height: 100%;
 }
 
-.crazy-bordered{
-    border: 2px dashed black;
-}
-
 .bottoni{
     text-align: center;
     margin-top: 50px;
@@ -133,26 +129,26 @@ footer{
 
 footer section.footer-top{
     height: 500px;
-    background-color: #7fffd4;
 }
 
 footer section.footer-top aside{
     width: 30%;
     height: 100%;
-    background-color: #f08080;
+}
 
+footer .footer-top{
+    margin-top: 100px;
 }
 
 footer section.footer-top nav{
     width: 70%;
     height: 100%;
-    background-color: #20b2aa;
+
 }
 
 footer .footer-top nav ul{
     width: 25%;
     height: 100%;
-    border: 2px dashed white;
 }
 
 footer hr{
@@ -161,15 +157,7 @@ footer hr{
 
 footer section.footer-bottom{
     height: 100px;
-    background-color: #7fffd4;
     justify-content: space-between;
-}
-
-footer .footer-logo,
-footer .footer-button{
-    background-color: rgb(246, 136, 154);
-    padding: .5rem;
-    font-size: 1.25rem;
 }
 
 div#jumbotron{
@@ -273,4 +261,47 @@ div.big-content p{
 div.big-content img{
     background-position: center;
     width: 100%;
+}
+
+footer .footer-logo{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+}
+
+footer .footer-button button.sign-in {
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    background-color: #859BDA;
+    font-weight: bold;
+}
+
+.footer-text-color{
+    color: #859BDA;
+}
+
+footer section>aside h1{
+
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+aside .flag img{
+    font-size: 5px;
+}
+
+footer nav ul{
+    margin-left: 20px;
+}
+
+footer nav ul li{
+    list-style-type: none;
+    color: white;
+    margin-top: 15px;
+    font-size: 1.1rem;
 }
