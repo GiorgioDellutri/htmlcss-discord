@@ -129,6 +129,7 @@ footer{
 
 footer section.footer-top{
     height: 500px;
+    color: white;
 }
 
 footer section.footer-top aside{
@@ -291,14 +292,14 @@ footer section>aside h1{
     margin-bottom: 20px;
 }
 
-aside .flag img{
-    font-size: 5px;
+aside img.flag{
+    height: 1.5rem;
+    vertical-align: middle;
 }
 
 
 footer nav ul li{
     list-style-type: none;
-    color: white;
     margin-top: 15px;
     font-size: 1.1rem;
 }
